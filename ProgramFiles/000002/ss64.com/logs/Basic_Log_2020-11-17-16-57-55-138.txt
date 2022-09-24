@@ -1,0 +1,49 @@
+Downloading http://ss64.com/404.
+Download Failed!
+Downloading http://ss64.com/bash/break.html.
+Downloaded!
+Downloading http://ss64.com/bash/continue.html.
+Downloaded!
+Downloading http://ss64.com/bash/for.html.
+Downloaded!
+Downloading http://ss64.com/bash/select.html.
+Downloaded!
+Downloading http://ss64.com/bash/until.html.
+Downloaded!
+Downloading http://ss64.com/bash/while.html.
+Downloaded!
+Downloading http://ss64.com/nt/goto.html.
+Downloaded!
+Downloading http://ss64.com/bash.
+Download Canceled!
+Downloading http://ss64.com/bash/syntax.html.
+Downloaded!
+Downloading http://ss64.com/bash/if.html.
+Downloaded!
+Downloading http://ss64.com/bash.
+Download Canceled!
+Downloading http://ss64.com/nt/for.html.
+Downloaded!
+Downloading http://ss64.com/bash/case.html.
+Downloaded!
+Downloading http://ss64.com/bash/eval.html.
+Downloaded!
+Downloading http://ss64.com/bash/m4.html.
+Downloaded!
+Downloading http://ss64.com/osx/set.html.
+Downloaded!
+Downloading http://ss64.com/bash/syntax-expand.html.
+Downloaded!
+Downloading http://ss64.com/bash/syntax-math.html.
+Downloaded!
+Downloading http://ss64.com/bash.
+Download Canceled!
+Downloading http://ss64.com/nt/choice.html.
+Downloaded!
+Downloading http://ss64.com/bash/read.html.
+Downloaded!
+Downloading http://ss64.com/bash.
+Download Canceled!
+Downloading http://ss64.com/nt/if.html.
+Downloaded!
+Downloading http://ss64.com/bash.
