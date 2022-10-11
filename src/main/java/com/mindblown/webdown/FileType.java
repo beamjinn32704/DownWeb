@@ -1,3 +1,5 @@
+package com.mindblown.webdown;
+
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -147,7 +149,6 @@ public class FileType implements Comparable<FileType>{
         }
         return fileExtension;
     }
-    
     
     public FileType(String name, String[] fileExtensionArray) {
         this.name = name;

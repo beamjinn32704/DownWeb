@@ -1,3 +1,5 @@
+package com.mindblown.webdown;
+
 
 
 /*
@@ -41,7 +43,6 @@ public class Test extends javax.swing.JFrame {
         jScrollPane1.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         jScrollPane1.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
 
-        jTextField1.setBackground(new java.awt.Color(255, 255, 255));
         jTextField1.setText("1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0987654321");
         jTextField1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         jTextField1.addKeyListener(new java.awt.event.KeyAdapter() {

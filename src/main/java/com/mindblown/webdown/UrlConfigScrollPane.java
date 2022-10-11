@@ -1,3 +1,5 @@
+package com.mindblown.webdown;
+
 
 import javax.swing.JScrollPane;
 
@@ -21,7 +23,8 @@ public class UrlConfigScrollPane extends JScrollPane {
     public UrlConfigScrollPane() {
         //Create a new model, add a default config to it and set the default config as the selected item
         model = new UrlConfigModel();
-        DefaultUrlConfig defaultConfig = new DefaultUrlConfig();
+//        DefaultUrlConfig defaultConfig = new DefaultUrlConfig();
+        UrlConfig defaultConfig = new UrlConfig("Default");
         model.addConfig(defaultConfig);
         model.setSelectedItem(defaultConfig);
         

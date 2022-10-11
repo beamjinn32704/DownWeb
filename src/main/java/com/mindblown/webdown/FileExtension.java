@@ -1,3 +1,5 @@
+package com.mindblown.webdown;
+
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -12,9 +14,9 @@
  */
 public class FileExtension extends FileType{
     
-    public FileExtension(String fileTypeName) {
-        super(fileTypeName);
-    }
+//    public FileExtension(String fileTypeName) {
+//        super(fileTypeName, FileType.);
+//    }
 
     public FileExtension(String fileTypeName, String fileExtension) {
         super(fileTypeName, fileExtension);
