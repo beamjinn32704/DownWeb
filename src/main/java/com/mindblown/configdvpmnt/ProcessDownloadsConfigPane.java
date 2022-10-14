@@ -30,16 +30,16 @@ public class ProcessDownloadsConfigPane extends JTabbedPane {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        processConfigScrollPane1 = new com.mindblown.webdown.ProcessConfigScrollPane();
-        urlConfigScrollPane1 = new com.mindblown.webdown.UrlConfigScrollPane();
+        processConfigScrollPane1 = new com.mindblown.configdvpmnt.ProcessConfigScrollPane();
+        urlConfigScrollPane1 = new com.mindblown.configdvpmnt.UrlConfigScrollPane();
 
-        addTab("tab1", processConfigScrollPane1);
-        addTab("tab2", urlConfigScrollPane1);
+        addTab("Processing Configurations", processConfigScrollPane1);
+        addTab("Url Configurations", urlConfigScrollPane1);
     }// </editor-fold>//GEN-END:initComponents
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private com.mindblown.webdown.ProcessConfigScrollPane processConfigScrollPane1;
-    private com.mindblown.webdown.UrlConfigScrollPane urlConfigScrollPane1;
+    private com.mindblown.configdvpmnt.ProcessConfigScrollPane processConfigScrollPane1;
+    private com.mindblown.configdvpmnt.UrlConfigScrollPane urlConfigScrollPane1;
     // End of variables declaration//GEN-END:variables
 }
