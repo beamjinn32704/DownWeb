@@ -1,4 +1,4 @@
-package com.mindblown.webdown;
+package com.mindblown.configdvpmnt;
 
 
 import com.mindblown.webdown.Util;
@@ -16,18 +16,16 @@ import javax.swing.event.ListDataListener;
  *
  * @author beamj
  */
-public class UrlConfigModel implements ComboBoxModel<UrlConfig>{
+public class ProcessConfigModel implements ComboBoxModel<ProcessConfig>{
     
-    private ArrayList<UrlConfig> urlConfigs = new ArrayList<>();
+    private ArrayList<ProcessConfig> processConfigs = new ArrayList<>();
     private int currentIndex = -1;
-    
-    
     /**
-     * Add config to the list of url configurations if config isn't already in there.
-     * @param config the url configuration to add
+     * Add config to the list of processing downloads configurations if config isn't already in there.
+     * @param config the processing downloads configuration to add
      */
-    public void addConfig(UrlConfig config){
-        Util.binaryAddNoDups(urlConfigs, config);
+    public void addConfig(ProcessConfig config){
+        Util.binaryAddNoDups(processConfigs, config);
     }
     
     /**
@@ -35,19 +33,19 @@ public class UrlConfigModel implements ComboBoxModel<UrlConfig>{
      * @param index the index of the configuration to set
      * @param config the config to be set
      */
-    public void setConfig(int index, UrlConfig config){
-        urlConfigs.set(index, config);
+    public void setConfig(int index, ProcessConfig config){
+        processConfigs.set(index, config);
     }
     
     @Override
     public void setSelectedItem(Object anItem) {
-        if(!(anItem instanceof UrlConfig)){
-            //If the object isn't a url config, return
+        if(!(anItem instanceof ProcessConfig)){
+            //If the object isn't a process config, return
             return;
         }
         
         //Get index of item. If it's in the list set the index.
-        int ind = Util.binaryIndexOf(urlConfigs, (UrlConfig)anItem);
+        int ind = Util.binaryIndexOf(processConfigs, (ProcessConfig)anItem);
         if(ind < 0){
             return;
         }
@@ -60,17 +58,17 @@ public class UrlConfigModel implements ComboBoxModel<UrlConfig>{
             return null;
         }
         
-        return urlConfigs.get(currentIndex);
+        return processConfigs.get(currentIndex);
     }
     
     @Override
     public int getSize() {
-        return urlConfigs.size();
+        return processConfigs.size();
     }
     
     @Override
-    public UrlConfig getElementAt(int index) {
-        return urlConfigs.get(index);
+    public ProcessConfig getElementAt(int index) {
+        return processConfigs.get(index);
     }
     
     @Override
