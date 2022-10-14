@@ -1,4 +1,4 @@
 *.class
 *.form
 /target/
-ProgramFiles/*.*
+ProgramFiles/

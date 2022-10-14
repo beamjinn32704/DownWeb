@@ -609,9 +609,7 @@ public class MainFrame extends javax.swing.JFrame {
         basicLog = new javax.swing.JTextPane();
         detailedLogScrollPane = new javax.swing.JScrollPane();
         detailedLog = new javax.swing.JTextPane();
-        failedUrlsPanel = new FailedUrlsPanel();
-        configTabbedPane = new javax.swing.JTabbedPane();
-        processDownloadsConfigPane = new ProcessDownloadsConfigPane();
+        failedUrlsPanel = new com.mindblown.webdown.FailedUrlsPanel();
         progressBar = new javax.swing.JProgressBar();
         totalProgressBar = new javax.swing.JProgressBar();
         progressLabel = new javax.swing.JLabel();
@@ -850,10 +848,6 @@ public class MainFrame extends javax.swing.JFrame {
         serverDownPane.addTab("Detailed Log", detailedLogScrollPane);
         serverDownPane.addTab("Failed Downloads", failedUrlsPanel);
 
-        configTabbedPane.addTab("Processing Downloads", processDownloadsConfigPane);
-
-        serverDownPane.addTab("Download Configurations", configTabbedPane);
-
         progressLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         progressLabel.setText("Doing Process....");
 
@@ -950,7 +944,7 @@ public class MainFrame extends javax.swing.JFrame {
         serverDownPanelLayout.setVerticalGroup(
             serverDownPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(serverDownPanelLayout.createSequentialGroup()
-                .addComponent(serverDownPane, javax.swing.GroupLayout.PREFERRED_SIZE, 121, Short.MAX_VALUE)
+                .addComponent(serverDownPane, javax.swing.GroupLayout.DEFAULT_SIZE, 107, Short.MAX_VALUE)
                 .addGap(15, 15, 15)
                 .addComponent(backupPerDownloadsLabel)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -1362,11 +1356,10 @@ public class MainFrame extends javax.swing.JFrame {
     private javax.swing.JSlider backupPerDownloadsSlider;
     private javax.swing.JTextPane basicLog;
     private javax.swing.JScrollPane basicLogScrollPane;
-    private javax.swing.JTabbedPane configTabbedPane;
     private javax.swing.JTextPane detailedLog;
     private javax.swing.JScrollPane detailedLogScrollPane;
     private javax.swing.JButton exitButton;
-    private FailedUrlsPanel failedUrlsPanel;
+    private com.mindblown.webdown.FailedUrlsPanel failedUrlsPanel;
     private javax.swing.JButton genServerTreeButton;
     private javax.swing.ButtonGroup genUrlsToDownButtonGroup;
     private javax.swing.JRadioButton genUrlsToDownFromDataButton;
@@ -1380,7 +1373,6 @@ public class MainFrame extends javax.swing.JFrame {
     private javax.swing.JButton mainServerFolderButton;
     private javax.swing.JTextField mainServerFolderField;
     private javax.swing.JLabel mainServerFolderLabel;
-    private ProcessDownloadsConfigPane processDownloadsConfigPane;
     private javax.swing.JProgressBar progressBar;
     private javax.swing.JLabel progressLabel;
     private javax.swing.JButton restartServerDownloadButton;

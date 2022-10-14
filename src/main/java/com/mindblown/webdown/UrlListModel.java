@@ -1,6 +1,8 @@
 package com.mindblown.webdown;
 
 
+import com.mindblown.webdown.UrlDownData;
+import com.mindblown.webdown.Util;
 import java.util.ArrayList;
 import javax.swing.ListModel;
 import javax.swing.event.ListDataEvent;
